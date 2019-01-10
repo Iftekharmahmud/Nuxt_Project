@@ -1,0 +1,185 @@
+
+D:\Nuxt>npx create-nuxt-app
+npx: installed 401 in 167.305s
+> Generating Nuxt.js project in D:\Nuxt
+? Project name Nuxt
+? Project description My wondrous Nuxt.js project
+? Use a custom server framework none
+? Use a custom UI framework element-ui
+? Choose rendering mode Single Page App
+? Use axios module yes
+? Use eslint yes
+? Use prettier yes
+? Author name
+? Choose a package manager npm
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+warning git was not installed on this machine, therefore `git init` was skipped.
+
+npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, fl
+atted is its successor.
+
+> nodemon@1.18.4 postinstall D:\Nuxt\node_modules\nodemon
+> node bin/postinstall || exit 0
+
+Love nodemon? You can now support the project via the open collective:
+ > https://opencollective.com/nodemon/donate
+
+
+> nuxt@2.2.0 postinstall D:\Nuxt\node_modules\nuxt
+> opencollective || exit 0
+
+
+                                     :=.
+                                    -=+=:   :-
+                                  .-=+++=: :++=.
+                                 .-+++++++=++++=.
+                                .=+++++++****++++.
+                               :=+++++++******++*+:
+                              :=+++++++********++*+:
+                             :=+++++++**********++*+-
+                            -=+++++++*************+*+-.
+                          .-=======+**************++++=.
+                          .........::::::::::::::::::::.
+
+                          Thanks for installing nuxtjs
+                 Please consider donating to our open collective
+                        to help us maintain this package.
+
+                           Number of contributors: 149
+                              Number of backers: 126
+                            Annual budget: US$ 30,642
+                            Current balance: US$ 5,890
+
+             Donate: https://opencollective.com/nuxtjs/donate
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+
+npm WARN eslint-plugin-vue@4.7.1 requires a peer of eslint@^3.18.0 || ^4.0.0 but
+ none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
+added 1042 packages from 531 contributors and audited 15008 packages in 362.938s
+
+found 0 vulnerabilities
+
+
+  To get started:
+
+    npm run dev
+
+  To build & start for production:
+
+    npm run build
+    npm start
+
+
+D:\Nuxt>npm install
+npm WARN eslint-plugin-vue@4.7.1 requires a peer of eslint@^3.18.0 || ^4.0.0 but
+ none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.4 (node_modules\fse
+vents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@
+1.2.4: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"}
+)
+
+up to date in 68.393s
+
+D:\Nuxt>
+D:\Nuxt>
+D:\Nuxt>
+D:\Nuxt>
+D:\Nuxt>
+D:\Nuxt>
+D:\Nuxt>
+D:\Nuxt>npm run dev
+
+> Nuxt@1.0.0 dev D:\Nuxt
+> nuxt
+
+
+
+ INFO  Building project
+
+√ success Builder initialized
+√ success Nuxt files generated
+
+
+ ERROR  Failed to compile with 1 errors                                 15:50:44
+
+
+ error  in ./pages/index.vue
+
+Module Error (from ./node_modules/eslint-loader/index.js):
+
+D:\Nuxt\pages\index.vue
+  36:1  error  Delete `?`  prettier/prettier
+
+? 1 problem (1 error, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
+
+ @ ./.nuxt/router.js 5:9-7:3
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi webpack-hot-middleware/client?name=client&reload=true&timeout=30000&pat
+h=/__webpack_hmr ./.nuxt/client.js
+
+
+
+ READY  Listening on http://localhost:3000
+
+
+
+ INFO  Building project
+
+√ success Builder initialized
+√ success Nuxt files generated
+
+
+ ERROR  Failed to compile with 1 errors                                 15:52:38
+
+
+ error  in ./pages/index.vue
+
+Module Error (from ./node_modules/eslint-loader/index.js):
+
+D:\Nuxt\pages\index.vue
+  36:1  error  Delete `?`  prettier/prettier
+
+? 1 problem (1 error, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
+
+ @ ./.nuxt/router.js 5:9-7:3
+ @ ./.nuxt/index.js
+ @ ./.nuxt/client.js
+ @ multi webpack-hot-middleware/client?name=client&reload=true&timeout=30000&pat
+h=/__webpack_hmr ./.nuxt/client.js
+
+Terminate batch job (Y/N)?
+^CC:\Program Files\nodejs\node.exe was unexpected at this time.
+
+D:\Nuxt>
+
+D:\Nuxt>
+
+D:\Nuxt>npm run dev
+
+> Nuxt@1.0.0 dev D:\Nuxt
+> nuxt
+
+
+
+ INFO  Building project
+
+√ success Builder initialized
+√ success Nuxt files generated
+
+
+ READY  Listening on http://localhost:3000
+
